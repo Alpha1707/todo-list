@@ -1,0 +1,31 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.todo-container{  
+  width:max(100vw - 20vw);
+  margin-inline:auto;
+}
+
+.todo-inputs{
+  margin-top:20px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+
+input{
+  padding:8px;
+  border:1px solid #aaa;
+  border-radius:1em;
+}
+
+button{
+  padding:8px;
+  border:1px solid #aaa; 
+  border-radius:1em;
+}
